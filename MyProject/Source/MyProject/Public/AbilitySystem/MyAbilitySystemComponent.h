@@ -7,11 +7,14 @@
 #include "MyAbilitySystemComponent.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class MYPROJECT_API UMyAbilitySystemComponent : public UAbilitySystemComponent
 {
 	GENERATED_BODY()
-	
+public:
+	/*void OnAbilityInputPressed(const FGameplayTag& InInputTag);
+	void OnAbilityInputReleased(const FGameplayTag& InInputTag);*/
+
 };

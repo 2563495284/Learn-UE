@@ -7,11 +7,11 @@
 #include "PlayerGameplayAbility.generated.h"
 
 /**
- * 
+ *
  */
 UCLASS()
 class MYPROJECT_API UPlayerGameplayAbility : public UMyGameplayAbility
 {
 	GENERATED_BODY()
-	
+
 };
