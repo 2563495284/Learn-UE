@@ -14,7 +14,7 @@ class MYPROJECT_API UMyAbilitySystemComponent : public UAbilitySystemComponent
 {
 	GENERATED_BODY()
 public:
-	/*void OnAbilityInputPressed(const FGameplayTag& InInputTag);
-	void OnAbilityInputReleased(const FGameplayTag& InInputTag);*/
+	void OnAbilityInputPressed(const FGameplayTag& InInputTag);
+	void OnAbilityInputReleased(const FGameplayTag& InInputTag);
 
 };
