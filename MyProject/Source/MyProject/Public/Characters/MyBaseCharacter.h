@@ -30,10 +30,6 @@ protected:
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "CharacterData")
 	TSoftObjectPtr<UDataAsset_StartUpDataBase> CharacterStartUpData;
-
-	void GrantAbilities(const TArray<TSubclassOf<UMyGameplayAbility>>& InAbilitiesToGive, UMyAbilitySystemComponent* InASCToGive, int32 ApplyLevel = 1);
-
-
 protected:
 	FORCEINLINE UMyAbilitySystemComponent* GetWarriorAbilitySystemComponent() const { return MyAbilitySystemComponent; }
 

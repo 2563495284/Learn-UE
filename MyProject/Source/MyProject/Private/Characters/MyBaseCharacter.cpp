@@ -32,4 +32,3 @@ void AMyBaseCharacter::BeginPlay()
 	}
 
 }
-
